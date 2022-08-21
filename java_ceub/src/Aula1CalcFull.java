@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Aula1CalcFull {
 	public static void main (String[] args) {
-		// declarar variáveis
+		// declarar variÃ¡veis -
 		Scanner leitor = new Scanner(System.in);
 		
 		int primeiroNumero = 0;
@@ -10,10 +10,10 @@ public class Aula1CalcFull {
 		int resultado = 0;
 		
 		// Entrada de dados
-		System.out.print("Digite o primeiro número: ");
+		System.out.print("Digite o primeiro nÃºmero: ");
 		primeiroNumero = leitor.nextInt();
 		
-		System.out.print("Digite o segundo número: ");
+		System.out.print("Digite o segundo nÃºmero: ");
 		segundoNumero = leitor.nextInt();
 		
 		leitor.close();
@@ -23,7 +23,7 @@ public class Aula1CalcFull {
 		// Processamento
 		resultado = (primeiroNumero + segundoNumero);
 		
-		// Saída de dados
+		// SaÃ­da de dados
 		System.out.println(resultado);
 		
 	}
