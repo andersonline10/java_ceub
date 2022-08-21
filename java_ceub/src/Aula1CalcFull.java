@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Aula1CalcFull {
 	public static void main (String[] args) {
-		// declarar vari√°veis -
+		// declarar vari·veis 
 		Scanner leitor = new Scanner(System.in);
 		
 		int primeiroNumero = 0;
