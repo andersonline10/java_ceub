@@ -6,26 +6,41 @@ public class Aula1CalcFull {
 		// declarar variáveis 
 		Scanner leitor = new Scanner(System.in);
 		
-		int primeiroNumero = 0;
-		int segundoNumero = 0;
-		int resultado = 0;
+		double primeiroNumero = 0;
+		double segundoNumero = 0;
+		double resultado = 0;
+		int operacao = 0;
 		
 		// Entrada de dados
-		System.out.print("Digite o primeiro nÃºmero: ");
-		primeiroNumero = leitor.nextInt();
+		System.out.print("Digite o primeiro número: ");
+		primeiroNumero = leitor.nextDouble();
 		
-		System.out.print("Digite o segundo nÃºmero: ");
-		segundoNumero = leitor.nextInt();
+		System.out.print("Digite o segundo número: ");
+		segundoNumero = leitor.nextDouble();
 		
+		System.out.print("Escolha a operação desejada: 1-Soma 2-Subtração 3-Multiplicação 4-Divisão: ");
+		operacao = leitor.nextInt();
+				
 		leitor.close();
 		
-		// a classe scanner exige que seja explicitamente fechada, pra encerrar o fluxo do teclado
-		
+				
 		// Processamento
-		resultado = (primeiroNumero + segundoNumero);
+		if (operacao == 1) {
+			resultado = (primeiroNumero + segundoNumero);
+		}
+		else if (operacao == 2) {
+			resultado = (primeiroNumero - segundoNumero);
+		}
+		else if (operacao == 3) {
+			resultado = (primeiroNumero * segundoNumero);
+		}
+		else if (operacao == 4) {
+			resultado = (primeiroNumero / segundoNumero);
+		}
 		
-		// SaÃ­da de dados
-		System.out.println(resultado);
+		
+		// Saída de dados
+		System.out.printf("O resultado da operação escolhida entre os números %.2f e %.2f é %.2f.%n", primeiroNumero, segundoNumero, resultado);
 		
 	}
 
