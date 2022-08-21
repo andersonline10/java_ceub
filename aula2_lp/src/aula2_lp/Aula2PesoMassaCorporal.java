@@ -1,4 +1,4 @@
-package java_ceub_aula2;
+package aula2_lp;
 import java.util.Scanner;
 
 public class Aula2PesoMassaCorporal {
