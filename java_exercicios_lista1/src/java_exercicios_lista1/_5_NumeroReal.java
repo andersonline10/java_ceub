@@ -15,6 +15,7 @@ public class _5_NumeroReal {
 		//Entrada de dados
 		System.out.print("Digite um número real: ");
 		numero_real = leitor.nextDouble();
+		leitor.close();
 		
 		//Saída de dados
 		System.out.printf("O número informado foi o %.2f.", numero_real);
