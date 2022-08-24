@@ -1,3 +1,7 @@
+//14. Escreva um programa que solicite ao usuário dois números reais e ao final apresente na
+//tela o produto dos dois números informados da seguinte forma: "O produto dos numeros N
+//e X corresponde a Y"
+
 package java_exercicios_lista1;
 
 import java.util.Scanner;
