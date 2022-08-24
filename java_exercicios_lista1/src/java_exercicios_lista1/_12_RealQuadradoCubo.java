@@ -1,3 +1,4 @@
+//12. Reescrever o programa anterior apresentando o quadrado e o cubo do número informado
 package java_exercicios_lista1;
 
 import java.util.Scanner;
