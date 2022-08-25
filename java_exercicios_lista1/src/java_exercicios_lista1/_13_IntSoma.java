@@ -3,7 +3,7 @@
 //somados correspondem a Y"
 
 package java_exercicios_lista1;
-
+ 
 import java.util.Scanner;
 
 public class _13_IntSoma {
