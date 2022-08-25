@@ -1,4 +1,4 @@
-//15. Refazer o programa 14 realizando as quatro operações aritméticas básicas
+// 15. Refazer o programa 14 realizando as quatro operações aritméticas básicas
 
 package java_exercicios_lista1;
 
