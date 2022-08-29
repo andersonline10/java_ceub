@@ -16,7 +16,7 @@ public class AccountTest {
 		System.out.printf("Nome inicial é o: %s%n%n", myAccount.getName());
 		
 		//solicita e lê o nome
-		System.out.println("Informe o nome:");
+		System.out.print("Informe o nome: ");
 		String theName = input.nextLine(); //lê uma linha de texto
 		myAccount.setName(theName); //insere theName em myAccount
 		System.out.println(); //gera saída de uma linha em branco
