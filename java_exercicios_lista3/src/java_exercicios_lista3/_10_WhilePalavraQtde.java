@@ -19,12 +19,14 @@ public class _10_WhilePalavraQtde {
 		System.out.print("Informe quantas vezes a palavra será impressa: ");
 		qtde = leitor.nextInt();
 		
+		leitor.close();
+		
 		while (contador <= qtde ) {
-			System.out.println(contador + " " + palavra);
+			System.out.println(contador + " - " + palavra);
 			contador += 1;
 		}
 		
-		leitor.close();
+		
 		
 	}
  
