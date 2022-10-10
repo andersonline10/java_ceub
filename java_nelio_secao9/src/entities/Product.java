@@ -1,9 +1,15 @@
 package entities;
 
 public class Product {
-	public String name;
-	public double price;
-	public int quantity;
+	private String name;
+	private double price;
+	private int quantity;
+	
+	//podemos incluir o construtor padrao
+	
+	public Product() {
+	}
+	
 	
 	//vamos criar um construtor que exija os atributos
 	
@@ -13,6 +19,39 @@ public class Product {
 		this.quantity = quantity;
 	}
 	
+	//criar construtor opcional, a qtde em estoque deverá ser iniciada com valor 0
+	
+	public Product(String name, double price) {
+		this.name = name;
+		this.price = price;
+	}
+	
+	
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public double getPrice() {
+		return price;
+	}
+
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+
+	public int getQuantity() {
+		return quantity;
+	}
+
+
 	public double totalValueInStock() {
 		return price * quantity;
 	}
