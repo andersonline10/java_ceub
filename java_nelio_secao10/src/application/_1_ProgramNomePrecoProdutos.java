@@ -29,7 +29,7 @@ public class _1_ProgramNomePrecoProdutos {
 		}
 		
 		double sum = 0.0;
-			for(int i=0; i<vect.length; i++) {
+			for(int i = 0; i < vect.length; i++) {
 				sum += vect[i].getPrice();
 			}
 		double avg = sum / vect.length;
