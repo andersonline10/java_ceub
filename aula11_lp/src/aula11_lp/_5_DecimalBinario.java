@@ -25,7 +25,7 @@ public class _5_DecimalBinario {
 		} while (decimal > 0);
 		
 		//saída
-		for (int i = (tamanhoVetor - 1); i>=0; i--) {
+		for (int i = (tamanhoVetor - 1); i >= 0; i--) {
 			System.out.print(vetor[i]);
 		}
 		
